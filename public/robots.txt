@@ -1,0 +1,44 @@
+# ContextLM marketing site
+# Public marketing is fully crawlable. Named agents mirror * (explicit allow).
+# DeepSeek / 豆包 chat products have no stable public UA — they fall under *.
+
+User-agent: *
+Allow: /
+
+# Western AI
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# China search + platform crawlers
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Baiduspider-render
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Sogou
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: HaosouSpider
+Allow: /
+
+Sitemap: https://contextlm.top/sitemap.xml
+Sitemap: https://app.contextlm.top/sitemap.xml

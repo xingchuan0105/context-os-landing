@@ -1,0 +1,66 @@
+@import "../styles/cos-tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Public marketing: dark Monochrome Ink */
+:root {
+  color-scheme: dark;
+
+  /* Force dark channels for any hsl(var(--*)) consumers */
+  --background: 0 0% 4%;
+  --foreground: 0 0% 93%;
+  --accent-soft: 28 20% 14%;
+  --muted-foreground: 0 0% 55%;
+  --subtle-foreground: 0 0% 42%;
+  --border: 0 0% 16%;
+  --cta-background: 0 0% 96%;
+  --cta-background-hover: 0 0% 86%;
+  --cta-foreground: 0 0% 9%;
+
+  /* Legacy landing aliases used by Tailwind theme */
+  --bg-primary: #0a0a0a;
+  --bg-footer: #050505;
+  --accent-hex: #687ff3;
+  --accent-hover-hex: #8b96ff;
+  --accent-bg: rgba(104, 127, 243, 0.14);
+  --card: rgba(255, 255, 255, 0.03);
+  --card-hover: rgba(255, 255, 255, 0.06);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --text-primary: rgba(255, 255, 255, 0.92);
+  --text-muted: rgba(255, 255, 255, 0.6);
+  --text-subtle: rgba(255, 255, 255, 0.35);
+  --cta: #f5f5f5;
+  --cta-hover: #e5e5e5;
+  --cta-ink: #171717;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "IBM Plex Sans", "PingFang SC", "Microsoft YaHei", "Noto Sans SC",
+    -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--accent-bg);
+  color: var(--text-primary);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-hex);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

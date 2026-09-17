@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 76" fill="none" aria-hidden="true">
+  <!-- Sparklist Weekly / 点子王周报 — spark (discovery) + shortlist (list), one indigo hit -->
+  <rect width="76" height="76" rx="18" fill="#1b1f2d"/>
+  <rect x="0.75" y="0.75" width="74.5" height="74.5" rx="17.25" stroke="#fff" stroke-opacity="0.14" stroke-width="1.5"/>
+  <!-- spark: plus-burst with diagonal ticks -->
+  <path d="M26 13V39" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M13 26H39" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M18.4 18.4L21.4 21.4M33.6 18.4L30.6 21.4M33.6 33.6L30.6 30.6M18.4 33.6L21.4 30.6" stroke="#fff" stroke-opacity="0.65" stroke-width="2" stroke-linecap="round"/>
+  <!-- shortlist: three rows, right-aligned, last row indigo + hit dot -->
+  <path d="M30 46H64" stroke="#fff" stroke-opacity="0.85" stroke-width="3" stroke-linecap="round"/>
+  <path d="M38 54H64" stroke="#fff" stroke-opacity="0.85" stroke-width="3" stroke-linecap="round"/>
+  <path d="M30 62H64" stroke="#4f7cf3" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="68" cy="62" r="2.6" fill="#4f7cf3"/>
+</svg>
