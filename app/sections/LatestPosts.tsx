@@ -6,7 +6,7 @@ import Badge from '@/components/ui/Badge';
 function PostCard({ post }: { post: GhostPost }) {
   return (
     <a
-      href={`https://blog.contextlm.top/${post.slug}`}
+      href={post.url}
       className="block group"
     >
       <Card className="h-full flex flex-col">

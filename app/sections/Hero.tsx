@@ -11,7 +11,7 @@ const APP_TRIAL =
   '&utm_source=portal&utm_medium=hero&utm_campaign=team_trial&utm_content=hero_primary';
 
 /**
- * Product hero: Context-OS as the single gravity — who it serves, what task it
+ * Product hero: Context OS as the single gravity — who it serves, what task it
  * completes, real cited-output evidence, one primary CTA. The creator space is
  * a secondary text entry below the CTA.
  */
@@ -35,7 +35,7 @@ export default function Hero() {
           className="w-12 h-12 rounded-xl mx-auto mb-5"
         />
         <p className="text-sm font-medium tracking-[0.25em] uppercase text-text-subtle mb-4">
-          Context-OS
+          Context OS
         </p>
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-text-primary mb-5 leading-tight">
           {t(

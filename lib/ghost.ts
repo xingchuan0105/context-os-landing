@@ -3,6 +3,7 @@ export interface GhostPost {
   title: string;
   excerpt: string;
   slug: string;
+  url: string;
   published_at: string;
   tags: { name: string }[];
 }
@@ -59,6 +60,7 @@ export async function fetchLatestPosts(limit: number = 3): Promise<GhostPost[]> 
         title: decodeEntities(pickTag('title', item)),
         excerpt: stripHtml(pickTag('description', item)).slice(0, 160),
         slug,
+        url: link,
         published_at: pickTag('pubDate', item),
         tags: [],
       };

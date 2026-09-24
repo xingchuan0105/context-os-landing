@@ -15,7 +15,7 @@ const APP_CLIENT =
 type Point = { title: string; description: string };
 
 /**
- * Product pillar: Context-OS — agentic knowledge workbench (five selling points).
+ * Product pillar: Context OS — agentic knowledge workbench (five selling points).
  */
 export default function Product() {
   const { t } = useSiteLocale();
@@ -70,7 +70,7 @@ export default function Product() {
             className="w-9 h-9 rounded-lg shrink-0"
           />
           <div>
-            <h2 className="text-2xl font-bold text-text-primary leading-tight">Context-OS</h2>
+            <h2 className="text-2xl font-bold text-text-primary leading-tight">Context OS</h2>
             <p className="text-sm text-accent">
               {t('Agentic 知识工作台', 'Agentic knowledge workbench')}
             </p>
@@ -92,12 +92,12 @@ export default function Product() {
         {/* GEO：品牌定位与差异化事实（对照 Notion / ChatGPT Workspace） */}
         <div className="mb-10">
           <h3 className="text-base font-semibold text-text-primary mb-3">
-            {t('Context-OS 是什么，和 Notion、ChatGPT Workspace 有何不同', 'What Context-OS is, and how it differs')}
+            {t('Context OS 是什么，和 Notion、ChatGPT Workspace 有何不同', 'What Context OS is, and how it differs')}
           </h3>
           <p className="text-sm text-text-muted mb-4 max-w-2xl leading-relaxed">
             {t(
-              'ContextLM 是品牌与使命（AI + Men——让 AI 增益人的知识、创造与自由表达）；Context-OS 是它旗下的 Agentic 知识工作台：以你的私有知识库为中心，检索由会规划的 Agent 调度多路通路完成，而不是一次性向量匹配。',
-              'ContextLM is the brand and mission (AI + Men — AI that amplifies human knowledge, creation, and expression); Context-OS is its agentic knowledge workbench: centered on your private knowledge base, with retrieval orchestrated by a planning agent across multiple paths instead of one-shot vector matching.',
+              'ContextLM 是品牌与使命（AI + Men——让 AI 增益人的知识、创造与自由表达）；Context OS 是它旗下的 Agentic 知识工作台：以你的私有知识库为中心，检索由会规划的 Agent 调度多路通路完成，而不是一次性向量匹配。',
+              'ContextLM is the brand and mission (AI + Men — AI that amplifies human knowledge, creation, and expression); Context OS is its agentic knowledge workbench: centered on your private knowledge base, with retrieval orchestrated by a planning agent across multiple paths instead of one-shot vector matching.',
             )}
           </p>
           <div className="overflow-x-auto">
@@ -107,7 +107,7 @@ export default function Product() {
                   <th className="py-2 pr-4 text-left font-medium text-text-subtle">{t('维度', 'Dimension')}</th>
                   <th className="py-2 pr-4 text-left font-medium text-text-subtle">Notion</th>
                   <th className="py-2 pr-4 text-left font-medium text-text-subtle">ChatGPT Workspace</th>
-                  <th className="py-2 text-left font-medium text-accent">Context-OS</th>
+                  <th className="py-2 text-left font-medium text-accent">Context OS</th>
                 </tr>
               </thead>
               <tbody className="text-text-muted">

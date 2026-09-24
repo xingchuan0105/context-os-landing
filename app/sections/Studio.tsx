@@ -87,14 +87,14 @@ export default function Studio() {
             <h3 className="text-xl font-bold text-text-primary mb-3">{t('邢川', 'Chuan Xing')}</h3>
             <p className="text-base text-text-muted leading-relaxed mb-3 max-w-xl">
               {t(
-                'ContextLM 开发者，研究工具的创造者。相信 AI 应当增益普通人的知识与创造——Context-OS 是这个立场的产品化，这个空间是它的方法论与实验场。',
-                'Developer of ContextLM, builder of research tools. Believes AI should empower ordinary people’s knowledge and creativity—Context-OS is that stance as a product; this space is its method and lab.',
+                'ContextLM 开发者，研究工具的创造者。相信 AI 应当增益普通人的知识与创造——Context OS 是这个立场的产品化，这个空间是它的方法论与实验场。',
+                'Developer of ContextLM, builder of research tools. Believes AI should empower ordinary people’s knowledge and creativity—Context OS is that stance as a product; this space is its method and lab.',
               )}
             </p>
             <p className="text-sm text-text-subtle">
               {t(
-                '主线：ContextLM / Context-OS。侧项目：博客、点子王周报、Why I Am Right、ELO 与象棋。',
-                'Main line: ContextLM / Context-OS. Side projects: Blog, Sparklist Weekly, Why I Am Right, ELO, and Xiangqi.',
+                '主线：ContextLM / Context OS。侧项目：博客、点子王周报、Why I Am Right、ELO 与象棋。',
+                'Main line: ContextLM / Context OS. Side projects: Blog, Sparklist Weekly, Why I Am Right, ELO, and Xiangqi.',
               )}
             </p>
           </div>

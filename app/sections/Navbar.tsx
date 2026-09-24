@@ -53,7 +53,7 @@ export default function Navbar() {
             className="text-sm text-text-muted hover:text-text-primary transition-colors duration-200"
             data-testid="hub-nav-product"
           >
-            Context-OS
+            Context OS
           </a>
           <a
             href="#studio"

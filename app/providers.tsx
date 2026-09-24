@@ -1,7 +1,7 @@
 'use client';
 
-import { SiteLocaleProvider } from '@/lib/site-locale';
+import { SiteLocaleProvider, type SiteLang } from '@/lib/site-locale';
 
-export function Providers({ children }: { children: React.ReactNode }) {
-  return <SiteLocaleProvider>{children}</SiteLocaleProvider>;
+export function Providers({ lang, children }: { lang: SiteLang; children: React.ReactNode }) {
+  return <SiteLocaleProvider lang={lang}>{children}</SiteLocaleProvider>;
 }

@@ -28,7 +28,7 @@ export default function Footer() {
             <span className="text-sm text-text-subtle">© 2026 ContextLM</span>
             {/* GEO freshness：内容更新日期 */}
             <span className="text-xs text-text-subtle/70">
-              {t('内容更新：2026-08-15', 'Updated 2026-08-15')}
+              {t('内容更新：2026-09-24', 'Updated 2026-09-24')}
             </span>
           </div>
 
