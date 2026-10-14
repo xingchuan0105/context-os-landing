@@ -50,6 +50,12 @@ export default function Studio() {
       href: 'https://canju.contextlm.top',
       cta: t('打开', 'Open'),
     },
+    {
+      title: 'Pricer',
+      description: t('空间与时段资源收益管理', 'Revenue pricing for spaces & time slots'),
+      href: 'https://pricer.contextlm.top',
+      cta: t('打开', 'Open'),
+    },
   ];
 
   return (
@@ -93,8 +99,8 @@ export default function Studio() {
             </p>
             <p className="text-sm text-text-subtle">
               {t(
-                '主线：ContextLM / Context OS。侧项目：博客、点子王周报、Why I Am Right、ELO 与象棋。',
-                'Main line: ContextLM / Context OS. Side projects: Blog, Sparklist Weekly, Why I Am Right, ELO, and Xiangqi.',
+                '主线：ContextLM / Context OS。侧项目：博客、点子王周报、Why I Am Right、ELO、象棋与 Pricer。',
+                'Main line: ContextLM / Context OS. Side projects: Blog, Sparklist Weekly, Why I Am Right, ELO, Xiangqi, and Pricer.',
               )}
             </p>
           </div>
